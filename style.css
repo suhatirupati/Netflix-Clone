@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+body{
+    background-color: #232323;
+    overflow-x: hidden;
+}
+
+.entire-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* NAV BAR STARTS */
+
+.bg-cont{
+    height: 700px;
+    background-image: url(./images/bg.jpg); 
+   
+}
+
+.main-nav{
+    height: 75px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.menu{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 160px;
+}
+
+.lang{
+    display: flex;
+    gap: 10px;
+    height: 32px;
+    width: 119px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 0.2px solid rgb(220, 218, 218);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    color: white;
+    font-size: 16px;
+    font-weight: 10px;
+    cursor: pointer;
+}
+
+/* NAV BAR ENDS */
+
+/* MAIN SECTION STARTS */
+.center-cont{
+    /* border: 2px solid white; */
+    color: white;
+    width: 80%;
+    height: 280px;
+    margin: 203px auto;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first-cont{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.second-cont{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+.third-cont{
+    font-size: 20px;
+    font-weight: 380;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.fourth-cont{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first-input{
+    height: 55px;
+    width: 376px;
+    background-color: #23221f;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+.started{
+    display: flex;
+    height: 55px;
+    width: 218px;
+    background-color: #e50914;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN SECTION ENDS */
+
+/* SECOND CONTAINER STARTS HERE */
+
+.sec-big-cont{
+    height: 490px ;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoy-cont{
+    flex-basis: 50%;
+}
+
+.tv-cont{
+    flex-basis: 50%;
+}
+
+.left-top-cont{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 89px;
+    margin-bottom: 20px;
+}
+
+.left-bottom-cont{
+    text-align: left;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 160px;
+}
+
+.tv-cont video{
+    position: relative;
+    height: 460px;
+    width: 370px;
+    left: 61px; 
+    bottom: 160px; 
+}
+
+.tv-cont img{ 
+    position: relative;
+    height: 340px;
+    width: 470px;
+    z-index: 1;
+    top: 240px;
+}
+
+/* SECOND CONTAINER ENDS HERE */
+
+/* THIRD CONTAINER STARTS HERE */
+
+.third-big-cont{
+    height: 490px ;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-cont{
+    flex-basis: 50%;
+}
+
+.download-cont{
+    flex-basis: 50%;
+}
+
+.top-right-cont{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-right: 89px;
+    margin-bottom: 20px;
+}
+
+.bottom-right-cont{
+    text-align: left;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-right: 160px;
+}
+
+.mobile-cont img{
+    position: relative;
+    left: 260px;
+    top: 30px;
+    height: 300px;
+    width: 230px;
+}
+
+
+
+
+
+
+
+
+/* THIRD CONTAINER ENDS HERE */
+
+
+/* FOURTH CONTAINER STARTS HERE */
+
+
+.fourth-big-cont{
+    height: 490px ;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.watch-cont{
+    flex-basis: 50%;
+}
+
+.tv-cont-2{
+    flex-basis: 50%;
+}
+
+.top-left-cont{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 89px;
+    margin-bottom: 20px;
+}
+
+.bottom-left-cont{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.tv-cont-2 video{
+    position: relative;
+    height: 370px;
+    width: 290px;
+    left: 90px; 
+    bottom: 230px; 
+}
+
+.tv-cont-2 img{
+    position: relative;
+    height: 350px;
+    width: 470px;
+    z-index: 1;
+    top: 190px;
+}
+
+
+/* FOURTH CONTAINER ENDS HERE */
+
+/* FIFTH CONTAINER STARTS HERE */
+.fifth-big-cont{ 
+    height: 490px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.children-img{
+    flex-basis: 50%;
+}
+
+.kids-cont{
+    flex-basis: 50%;
+}
+
+.top-cont{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-right: 89px;
+    margin-bottom: 20px;
+}
+
+.bottom-cont{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-right: 140px;
+    margin-bottom: 30px;
+}
+
+.children-img img{
+    height: 350px;
+    width: 470px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+/* FIFTH CONTAINER ENDS HERE */
+
+/* LAST CONTAINER STARTS HERE */
+
+.last-cont{
+    height: 900px;
+    background-color: black;
+    color: white;
+}
+
+.heading-cont p{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 60px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 24px;
+}
+
+.first-ques{
+    border: none;
+    height: 85px;
+    width: 950px;
+    background-color: #2d2d2d;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.first-ques:hover{
+    background-color: #393939;
+}
+
+
+.ques1{
+    flex-basis: 93%;
+}
+
+
+.membership-cont{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 20px;
+}
+
+.fourth-cont-1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 13px;  
+}
+
+
+
+/* LAST CONTAINER ENDS HERE */
+
+.query-sec{
+    height: 460px;
+    background-color: black;
+    color: #b0aeac;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.phn{
+    color: #b0aeac;
+}
+
+.top-details{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    top: 70px;
+    left: 150px;
+}
+
+.bottom-details{
+    display: flex;
+    gap: 120px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.sub-bottom-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+aside a{
+    color: #b0aeac;
+}
+
+.sub-bottom-details1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.sub-bottom-details2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.sub-bottom-details3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.bottom-button{
+    position: absolute;
+    top: 170px;
+    background-color: #0f0f0f;
+}
+.netflix-india{
+    position: absolute;
+    top: 220px;
+    font-size: 14px;
+}
+
+
+
+
+
+
